@@ -1,5 +1,7 @@
 # muse-downloader
 
+Downloads and stitches books with proper bookmarks from [Project MUSE](https://muse.jhu.edu/).
+
 ## Requirements
 
 `php`, `pdftk`, `bash`, [`ag`](https://github.com/monochromegane/the_platinum_searcher).
