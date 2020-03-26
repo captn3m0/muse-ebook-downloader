@@ -1,6 +1,7 @@
 *.pdf
 *.html
 *.csv
+*.txt
 index.txt
 /docs/
 /lib/

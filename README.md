@@ -2,7 +2,7 @@
 
 ## Requirements
 
-`php`, `pdftk`, `bash`
+`php`, `pdftk`, `bash`, [`ag`](https://github.com/monochromegane/the_platinum_searcher).
 
 ## Limitations
 
@@ -17,6 +17,11 @@ Expects PDF currently. Some books on the MUSE site don't have PDF versions, and 
 
 1. Ensure you have the dependencies covered
 2. Put all the book IDs you want in `ids.txt`
+3. Run `./generate.sh`
+
+## Why is (X) a dependency?
+
+File a PR and fix it.
 
 ## License
 
