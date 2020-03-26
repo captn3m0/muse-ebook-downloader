@@ -35,6 +35,11 @@ while IFS= read -r ID; do
 
   if [ ! -f "$ID.pdf" ]; then
     php stitch.php $ID
+  else
+    # If the PDF exists, make sure to publish it with a title:
+    # TODO
+    echo "Please add code here to update the PDF with a title"
+    # https://sejh.wordpress.com/2014/11/26/changing-pdf-titles-with-pdftk/
   fi
   echo "$ID | " $(ag citation_isbn "$ID/info.html"  --nonumbers | ag -o "\d+")
 done < ids.txt

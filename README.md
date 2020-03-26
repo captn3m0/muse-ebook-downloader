@@ -6,11 +6,10 @@
 
 ## Limitations
 
-Expects PDF currently. Some books on the MUSE site don't have PDF versions, and this will break for them
+Expects PDF currently. Some books on the MUSE site don't have PDF versions, and this will break for them.
 
 ## WARNING
 
-- This is still WIP, it doesn't combine the PDFs into a single file yet.
 - You are responsible for what you do with this. I hate reading online, so I use this to archive and read offline.
 
 ## How to run
@@ -18,6 +17,8 @@ Expects PDF currently. Some books on the MUSE site don't have PDF versions, and 
 1. Ensure you have the dependencies covered
 2. Put all the book IDs you want in `ids.txt`
 3. Run `./generate.sh`
+
+You should get back some PDF ebooks in your current directory.
 
 ## Why is (X) a dependency?
 

@@ -32,6 +32,6 @@ END;
 		$joinCommand = $joinCommand . escapeshellarg("$bookId/bookmarked/$chapter.pdf") . " ";
 	}
 }
-	
+
 $joinCommand .= "cat output $bookId.pdf";
 shell_exec($joinCommand);
