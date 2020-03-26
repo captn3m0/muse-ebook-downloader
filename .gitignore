@@ -2,3 +2,8 @@
 *.html
 *.csv
 index.txt
+/docs/
+/lib/
+/bin/
+/.shards/
+*.dwarf
