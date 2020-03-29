@@ -1,5 +1,10 @@
 # muse-downloader
 
+
+# SEE https://github.com/captn3m0/muse-dl for a proper binary version with fewer dependencies.
+
+
+
 Downloads and stitches books with proper bookmarks from [Project MUSE](https://muse.jhu.edu/).
 
 ## Requirements
